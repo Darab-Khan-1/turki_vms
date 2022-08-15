@@ -1,0 +1,77 @@
+CRITICAL - 2022-02-14 08:00:30 --> Undefined property: stdClass::$timezone
+#0 /var/www/html/app/Views/routeStatic.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(214): include('...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /var/www/html/app/Controllers/Panel.php(52): view()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Panel->route_static()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 08:01:49 --> Undefined property: stdClass::$timezone
+#0 /var/www/html/app/Views/routeAnimation.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(214): include('...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /var/www/html/app/Controllers/Panel.php(68): view()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Panel->route_animation()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 08:05:05 --> Undefined property: stdClass::$timezone
+#0 /var/www/html/app/Views/routeAnimation.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(214): include('...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /var/www/html/app/Controllers/Panel.php(68): view()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Panel->route_animation()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 08:05:09 --> Undefined property: stdClass::$timezone
+#0 /var/www/html/app/Views/reportSummary.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(214): include('...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /var/www/html/app/Controllers/Panel.php(100): view()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Panel->report_summary()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 08:05:11 --> Undefined property: stdClass::$speedUnit
+#0 /var/www/html/app/Views/geofence.php(131): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(214): include('...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /var/www/html/app/Controllers/Panel.php(142): view()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Panel->geofence()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 08:05:58 --> Undefined property: stdClass::$speedUnit
+#0 /var/www/html/app/Views/geofence.php(131): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(214): include('...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /var/www/html/app/Controllers/Panel.php(142): view()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Panel->geofence()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 15:13:13 --> Undefined property: stdClass::$timezone
+#0 /var/www/html/app/Views/routeStatic.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(214): include('...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /var/www/html/app/Controllers/Panel.php(52): view()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Panel->route_static()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

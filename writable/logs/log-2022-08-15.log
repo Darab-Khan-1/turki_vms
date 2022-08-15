@@ -1,0 +1,217 @@
+CRITICAL - 2022-08-15 13:11:08 --> Unmatched '}'
+#0 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /var/www/html/app/Views/map.php(18): view()
+#3 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(214): include('...')
+#4 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#6 /var/www/html/app/Controllers/Panel.php(36): view()
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Panel->map()
+#8 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-08-15 13:11:27 --> Unmatched '}'
+#0 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /var/www/html/app/Views/map.php(18): view()
+#3 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(214): include('...')
+#4 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#6 /var/www/html/app/Controllers/Panel.php(36): view()
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Panel->map()
+#8 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-08-15 13:11:37 --> Unmatched '}'
+#0 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /var/www/html/app/Views/map.php(18): view()
+#3 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(214): include('...')
+#4 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#6 /var/www/html/app/Controllers/Panel.php(36): view()
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Panel->map()
+#8 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-08-15 13:52:21 --> Undefined property: CodeIgniter\View\View::$session
+#0 /var/www/html/app/Views/include/main_menu.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(214): include('...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /var/www/html/app/Views/map.php(18): view()
+#5 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(214): include('...')
+#6 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#8 /var/www/html/app/Controllers/Panel.php(36): view()
+#9 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Panel->map()
+#10 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-08-15 13:54:00 --> Undefined property: CodeIgniter\View\View::$session
+#0 /var/www/html/app/Views/include/main_menu.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(214): include('...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /var/www/html/app/Views/map.php(18): view()
+#5 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(214): include('...')
+#6 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#8 /var/www/html/app/Controllers/Panel.php(36): view()
+#9 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Panel->map()
+#10 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-08-15 14:47:33 --> Undefined variable $result
+#0 /var/www/html/app/Libraries/TraccarApi.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/app/Libraries/TraccarApi.php(173): App\Libraries\TraccarApi->request()
+#2 /var/www/html/app/Controllers/Panel.php(24): App\Libraries\TraccarApi->groupsGet()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Panel->map()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-15 14:48:27 --> Undefined variable $result
+#0 /var/www/html/app/Libraries/TraccarApi.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/app/Libraries/TraccarApi.php(173): App\Libraries\TraccarApi->request()
+#2 /var/www/html/app/Controllers/Panel.php(24): App\Libraries\TraccarApi->groupsGet()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Panel->map()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-15 14:49:11 --> Undefined variable $result
+#0 /var/www/html/app/Libraries/TraccarApi.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/app/Libraries/TraccarApi.php(142): App\Libraries\TraccarApi->request()
+#2 /var/www/html/app/Helpers/common_helper.php(31): App\Libraries\TraccarApi->session()
+#3 /var/www/html/app/Controllers/Rest/Device.php(56): check_auth()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Rest\Device->position()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-15 14:49:16 --> Undefined variable $result
+#0 /var/www/html/app/Libraries/TraccarApi.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/app/Libraries/TraccarApi.php(142): App\Libraries\TraccarApi->request()
+#2 /var/www/html/app/Helpers/common_helper.php(31): App\Libraries\TraccarApi->session()
+#3 /var/www/html/app/Controllers/Rest/Device.php(56): check_auth()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Rest\Device->position()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-15 14:49:21 --> Undefined variable $result
+#0 /var/www/html/app/Libraries/TraccarApi.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/app/Libraries/TraccarApi.php(142): App\Libraries\TraccarApi->request()
+#2 /var/www/html/app/Helpers/common_helper.php(31): App\Libraries\TraccarApi->session()
+#3 /var/www/html/app/Controllers/Rest/Device.php(56): check_auth()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Rest\Device->position()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-15 14:49:26 --> Undefined variable $result
+#0 /var/www/html/app/Libraries/TraccarApi.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/app/Libraries/TraccarApi.php(142): App\Libraries\TraccarApi->request()
+#2 /var/www/html/app/Helpers/common_helper.php(31): App\Libraries\TraccarApi->session()
+#3 /var/www/html/app/Controllers/Rest/Device.php(56): check_auth()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Rest\Device->position()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-15 14:49:31 --> Undefined variable $result
+#0 /var/www/html/app/Libraries/TraccarApi.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/app/Libraries/TraccarApi.php(142): App\Libraries\TraccarApi->request()
+#2 /var/www/html/app/Helpers/common_helper.php(31): App\Libraries\TraccarApi->session()
+#3 /var/www/html/app/Controllers/Rest/Device.php(56): check_auth()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Rest\Device->position()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-15 14:49:36 --> Undefined variable $result
+#0 /var/www/html/app/Libraries/TraccarApi.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/app/Libraries/TraccarApi.php(142): App\Libraries\TraccarApi->request()
+#2 /var/www/html/app/Helpers/common_helper.php(31): App\Libraries\TraccarApi->session()
+#3 /var/www/html/app/Controllers/Rest/Device.php(56): check_auth()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Rest\Device->position()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-15 14:49:41 --> Undefined variable $result
+#0 /var/www/html/app/Libraries/TraccarApi.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/app/Libraries/TraccarApi.php(142): App\Libraries\TraccarApi->request()
+#2 /var/www/html/app/Helpers/common_helper.php(31): App\Libraries\TraccarApi->session()
+#3 /var/www/html/app/Controllers/Rest/Device.php(56): check_auth()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Rest\Device->position()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-15 14:50:45 --> syntax error, unexpected token "return", expecting "function" or "const"
+#0 /var/www/html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 /var/www/html/app/Controllers/BaseController.php(85): CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\BaseController->initController()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-08-15 16:37:48 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:37:49 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:38:10 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:38:31 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:38:42 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:38:55 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:39:06 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:39:58 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:39:59 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:40:15 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:40:30 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:40:40 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:40:52 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:40:59 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:41:14 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:41:18 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:41:20 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:41:30 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:43:15 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:43:19 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:43:37 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:44:49 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:44:55 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:45:00 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:45:15 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:45:37 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:46:59 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:47:02 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:47:13 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:47:28 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:47:41 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:49:04 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:49:04 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:49:17 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 16:49:35 --> Duplicate entry 'n4v7jl90lqcc03tctf1kf075rijsn6en' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 23:57:13 --> Duplicate entry 'kv8qr4fubuv590568hbftkelhbte68jj' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 23:57:13 --> Duplicate entry 'kv8qr4fubuv590568hbftkelhbte68jj' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 23:57:24 --> Duplicate entry 'kv8qr4fubuv590568hbftkelhbte68jj' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 23:57:29 --> Duplicate entry 'kv8qr4fubuv590568hbftkelhbte68jj' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 23:57:34 --> Duplicate entry 'kv8qr4fubuv590568hbftkelhbte68jj' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 23:57:40 --> Duplicate entry 'kv8qr4fubuv590568hbftkelhbte68jj' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 23:57:59 --> Duplicate entry 'kv8qr4fubuv590568hbftkelhbte68jj' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 23:57:59 --> Duplicate entry 'kv8qr4fubuv590568hbftkelhbte68jj' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 23:58:05 --> Duplicate entry 'kv8qr4fubuv590568hbftkelhbte68jj' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 23:58:06 --> Duplicate entry 'kv8qr4fubuv590568hbftkelhbte68jj' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 23:58:27 --> Duplicate entry 'kv8qr4fubuv590568hbftkelhbte68jj' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 23:58:30 --> Duplicate entry 'kv8qr4fubuv590568hbftkelhbte68jj' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 23:58:35 --> Duplicate entry 'kv8qr4fubuv590568hbftkelhbte68jj' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 23:58:46 --> Duplicate entry 'kv8qr4fubuv590568hbftkelhbte68jj' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 23:59:21 --> Duplicate entry 'kv8qr4fubuv590568hbftkelhbte68jj' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-08-15 23:59:27 --> Duplicate entry 'kv8qr4fubuv590568hbftkelhbte68jj' for key 'ci_sessions.PRIMARY'

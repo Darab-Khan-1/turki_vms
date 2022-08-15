@@ -1,0 +1,20 @@
+CRITICAL - 2021-12-17 13:24:06 --> Undefined property: stdClass::$timezone
+#0 /var/www/html/app/Views/routeAnimation.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(214): include('...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /var/www/html/app/Controllers/Panel.php(68): view()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Panel->route_animation()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-17 14:31:23 --> Duplicate entry '0luv8qu431ou9o6k47e51o1gljjhg33a' for key 'ci_sessions.PRIMARY'
+ERROR - 2021-12-17 14:31:29 --> Duplicate entry '0luv8qu431ou9o6k47e51o1gljjhg33a' for key 'ci_sessions.PRIMARY'
+ERROR - 2021-12-17 14:31:33 --> Duplicate entry '0luv8qu431ou9o6k47e51o1gljjhg33a' for key 'ci_sessions.PRIMARY'
+ERROR - 2021-12-17 14:51:45 --> Duplicate entry '0luv8qu431ou9o6k47e51o1gljjhg33a' for key 'ci_sessions.PRIMARY'
+ERROR - 2021-12-17 15:32:42 --> Duplicate entry '0luv8qu431ou9o6k47e51o1gljjhg33a' for key 'ci_sessions.PRIMARY'
+ERROR - 2021-12-17 15:42:53 --> Duplicate entry 'tjo7g28n20cmv7e2jfrduo7gl207uq8u' for key 'ci_sessions.PRIMARY'
+ERROR - 2021-12-17 15:42:53 --> Duplicate entry 'tjo7g28n20cmv7e2jfrduo7gl207uq8u' for key 'ci_sessions.PRIMARY'
+ERROR - 2021-12-17 15:42:55 --> Duplicate entry 'tjo7g28n20cmv7e2jfrduo7gl207uq8u' for key 'ci_sessions.PRIMARY'
+ERROR - 2021-12-17 15:42:58 --> Duplicate entry 'tjo7g28n20cmv7e2jfrduo7gl207uq8u' for key 'ci_sessions.PRIMARY'

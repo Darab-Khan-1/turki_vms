@@ -1,0 +1,201 @@
+CRITICAL - 2021-11-14 19:22:58 --> Undefined variable $user
+#0 D:\Projects\ATS\app\Views\include\script.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Projects\ATS\vendor\codeigniter4\framework\system\View\View.php(214): include('...')
+#2 D:\Projects\ATS\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Projects\ATS\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render()
+#4 D:\Projects\ATS\app\Views\welcome_message.php(100): view()
+#5 D:\Projects\ATS\vendor\codeigniter4\framework\system\View\View.php(214): include('...')
+#6 D:\Projects\ATS\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\Projects\ATS\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render()
+#8 D:\Projects\ATS\app\Controllers\Home.php(12): view()
+#9 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#10 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#11 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#12 D:\Projects\ATS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\Projects\ATS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#14 {main}
+ERROR - 2021-11-14 19:38:37 --> Error connecting to the database: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+CRITICAL - 2021-11-14 19:38:37 --> Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+#0 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(95): CodeIgniter\Database\BaseConnection->initialize()
+#1 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open()
+#2 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Session.php(894): session_start()
+#3 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Session.php(238): CodeIgniter\Session\Session->startSession()
+#4 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\Services.php(577): CodeIgniter\Session\Session->start()
+#5 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#6 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#7 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance()
+#8 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#9 D:\Projects\ATS\app\Controllers\BaseController.php(62): CodeIgniter\Config\BaseService::__callStatic()
+#10 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\BaseController->initController()
+#11 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#12 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 D:\Projects\ATS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 D:\Projects\ATS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#15 {main}
+ERROR - 2021-11-14 19:38:54 --> Error connecting to the database: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+CRITICAL - 2021-11-14 19:38:54 --> Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+#0 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(95): CodeIgniter\Database\BaseConnection->initialize()
+#1 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open()
+#2 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Session.php(894): session_start()
+#3 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Session.php(238): CodeIgniter\Session\Session->startSession()
+#4 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\Services.php(577): CodeIgniter\Session\Session->start()
+#5 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#6 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#7 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance()
+#8 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#9 D:\Projects\ATS\app\Controllers\BaseController.php(62): CodeIgniter\Config\BaseService::__callStatic()
+#10 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\BaseController->initController()
+#11 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#12 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 D:\Projects\ATS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 D:\Projects\ATS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#15 {main}
+ERROR - 2021-11-14 19:39:07 --> Error connecting to the database: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+CRITICAL - 2021-11-14 19:39:07 --> Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+#0 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(95): CodeIgniter\Database\BaseConnection->initialize()
+#1 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open()
+#2 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Session.php(894): session_start()
+#3 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Session.php(238): CodeIgniter\Session\Session->startSession()
+#4 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\Services.php(577): CodeIgniter\Session\Session->start()
+#5 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#6 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#7 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance()
+#8 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#9 D:\Projects\ATS\app\Controllers\BaseController.php(62): CodeIgniter\Config\BaseService::__callStatic()
+#10 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\BaseController->initController()
+#11 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#12 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 D:\Projects\ATS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 D:\Projects\ATS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#15 {main}
+ERROR - 2021-11-14 19:39:20 --> Error connecting to the database: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+CRITICAL - 2021-11-14 19:39:20 --> Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+#0 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(95): CodeIgniter\Database\BaseConnection->initialize()
+#1 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open()
+#2 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Session.php(894): session_start()
+#3 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Session.php(238): CodeIgniter\Session\Session->startSession()
+#4 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\Services.php(577): CodeIgniter\Session\Session->start()
+#5 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#6 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#7 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance()
+#8 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#9 D:\Projects\ATS\app\Controllers\BaseController.php(62): CodeIgniter\Config\BaseService::__callStatic()
+#10 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\BaseController->initController()
+#11 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#12 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 D:\Projects\ATS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 D:\Projects\ATS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#15 {main}
+ERROR - 2021-11-14 19:39:33 --> Error connecting to the database: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+CRITICAL - 2021-11-14 19:39:33 --> Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+#0 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(95): CodeIgniter\Database\BaseConnection->initialize()
+#1 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open()
+#2 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Session.php(894): session_start()
+#3 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Session.php(238): CodeIgniter\Session\Session->startSession()
+#4 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\Services.php(577): CodeIgniter\Session\Session->start()
+#5 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#6 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#7 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance()
+#8 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#9 D:\Projects\ATS\app\Controllers\BaseController.php(62): CodeIgniter\Config\BaseService::__callStatic()
+#10 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\BaseController->initController()
+#11 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#12 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 D:\Projects\ATS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 D:\Projects\ATS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#15 {main}
+ERROR - 2021-11-14 19:40:19 --> Error connecting to the database: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+CRITICAL - 2021-11-14 19:40:19 --> Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+#0 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(95): CodeIgniter\Database\BaseConnection->initialize()
+#1 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open()
+#2 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Session.php(894): session_start()
+#3 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Session.php(238): CodeIgniter\Session\Session->startSession()
+#4 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\Services.php(577): CodeIgniter\Session\Session->start()
+#5 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#6 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#7 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance()
+#8 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#9 D:\Projects\ATS\app\Controllers\BaseController.php(62): CodeIgniter\Config\BaseService::__callStatic()
+#10 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\BaseController->initController()
+#11 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#12 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 D:\Projects\ATS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 D:\Projects\ATS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#15 {main}
+CRITICAL - 2021-11-14 19:43:29 --> App\Controllers\Home::index(): Return value must be of type string, none returned
+#0 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 D:\Projects\ATS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Projects\ATS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2021-11-14 19:48:22 --> Too few arguments to function App\Controllers\Language::index(), 0 passed in D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Language->index()
+#1 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 D:\Projects\ATS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Projects\ATS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+ERROR - 2021-11-14 19:52:26 --> Error connecting to the database: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+CRITICAL - 2021-11-14 19:52:26 --> Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+#0 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(95): CodeIgniter\Database\BaseConnection->initialize()
+#1 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open()
+#2 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Session.php(894): session_start()
+#3 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Session.php(238): CodeIgniter\Session\Session->startSession()
+#4 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\Services.php(577): CodeIgniter\Session\Session->start()
+#5 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#6 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#7 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance()
+#8 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#9 D:\Projects\ATS\app\Controllers\BaseController.php(62): CodeIgniter\Config\BaseService::__callStatic()
+#10 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\BaseController->initController()
+#11 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#12 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 D:\Projects\ATS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 D:\Projects\ATS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#15 {main}
+ERROR - 2021-11-14 19:52:39 --> Error connecting to the database: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+CRITICAL - 2021-11-14 19:52:39 --> Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+#0 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(95): CodeIgniter\Database\BaseConnection->initialize()
+#1 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open()
+#2 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Session.php(894): session_start()
+#3 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Session.php(238): CodeIgniter\Session\Session->startSession()
+#4 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\Services.php(577): CodeIgniter\Session\Session->start()
+#5 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#6 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#7 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance()
+#8 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#9 D:\Projects\ATS\app\Controllers\BaseController.php(62): CodeIgniter\Config\BaseService::__callStatic()
+#10 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\BaseController->initController()
+#11 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#12 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 D:\Projects\ATS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 D:\Projects\ATS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#15 {main}
+ERROR - 2021-11-14 19:52:54 --> Error connecting to the database: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+CRITICAL - 2021-11-14 19:52:54 --> Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+#0 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(95): CodeIgniter\Database\BaseConnection->initialize()
+#1 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open()
+#2 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Session.php(894): session_start()
+#3 D:\Projects\ATS\vendor\codeigniter4\framework\system\Session\Session.php(238): CodeIgniter\Session\Session->startSession()
+#4 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\Services.php(577): CodeIgniter\Session\Session->start()
+#5 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#6 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#7 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance()
+#8 D:\Projects\ATS\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#9 D:\Projects\ATS\app\Controllers\BaseController.php(62): CodeIgniter\Config\BaseService::__callStatic()
+#10 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\BaseController->initController()
+#11 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#12 D:\Projects\ATS\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 D:\Projects\ATS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 D:\Projects\ATS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('...')
+#15 {main}

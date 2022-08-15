@@ -1,0 +1,48 @@
+CRITICAL - 2022-02-11 11:18:55 --> Undefined property: stdClass::$timezone
+#0 /var/www/html/app/Views/routeStatic.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(214): include('...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /var/www/html/app/Controllers/Panel.php(52): view()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Panel->route_static()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-02-11 15:26:44 --> Duplicate entry 'dtjja6fa45g4ko4ep8eubepjekl1urhk' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-02-11 15:26:44 --> Duplicate entry 'dtjja6fa45g4ko4ep8eubepjekl1urhk' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-02-11 15:26:46 --> Duplicate entry 'dtjja6fa45g4ko4ep8eubepjekl1urhk' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-02-11 15:26:48 --> Duplicate entry 'dtjja6fa45g4ko4ep8eubepjekl1urhk' for key 'ci_sessions.PRIMARY'
+CRITICAL - 2022-02-11 20:55:36 --> Undefined property: stdClass::$timezone
+#0 /var/www/html/app/Views/routeStatic.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(214): include('...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /var/www/html/app/Controllers/Panel.php(52): view()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Panel->route_static()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 20:55:37 --> Undefined property: stdClass::$timezone
+#0 /var/www/html/app/Views/routeStatic.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(214): include('...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /var/www/html/app/Controllers/Panel.php(52): view()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Panel->route_static()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 20:55:45 --> Undefined property: stdClass::$timezone
+#0 /var/www/html/app/Views/routeStatic.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(214): include('...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /var/www/html/app/Controllers/Panel.php(52): view()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Panel->route_static()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

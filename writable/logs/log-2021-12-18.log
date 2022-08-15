@@ -1,0 +1,3 @@
+ERROR - 2021-12-18 09:02:50 --> Duplicate entry 'jhtatocl6ksbft6hkapklp69t8iqkvks' for key 'ci_sessions.PRIMARY'
+ERROR - 2021-12-18 09:02:53 --> Duplicate entry 'jhtatocl6ksbft6hkapklp69t8iqkvks' for key 'ci_sessions.PRIMARY'
+ERROR - 2021-12-18 09:07:37 --> Duplicate entry 'jhtatocl6ksbft6hkapklp69t8iqkvks' for key 'ci_sessions.PRIMARY'

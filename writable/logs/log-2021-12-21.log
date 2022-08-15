@@ -1,0 +1,11 @@
+CRITICAL - 2021-12-21 10:46:32 --> Undefined property: stdClass::$timezone
+#0 /var/www/html/app/Views/routeStatic.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(214): include('...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /var/www/html/app/Controllers/Panel.php(52): view()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Panel->route_static()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

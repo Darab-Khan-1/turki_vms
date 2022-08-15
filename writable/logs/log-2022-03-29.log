@@ -1,0 +1,4 @@
+ERROR - 2022-03-29 18:02:58 --> Duplicate entry '960gbgetjo6j0kvrnhjstln517aos8d8' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-03-29 18:02:58 --> Duplicate entry '960gbgetjo6j0kvrnhjstln517aos8d8' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-03-29 18:04:11 --> Duplicate entry '960gbgetjo6j0kvrnhjstln517aos8d8' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-03-29 18:04:11 --> Duplicate entry '960gbgetjo6j0kvrnhjstln517aos8d8' for key 'ci_sessions.PRIMARY'

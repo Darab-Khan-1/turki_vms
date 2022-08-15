@@ -1,0 +1,2 @@
+ERROR - 2022-03-08 13:13:33 --> Duplicate entry '7aljbgf15j231ubcf5s2669tdk4i8mkl' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-03-08 13:13:34 --> Duplicate entry '7aljbgf15j231ubcf5s2669tdk4i8mkl' for key 'ci_sessions.PRIMARY'

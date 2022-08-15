@@ -1,0 +1,81 @@
+html body.bg-full-screen-image {
+    background: url(../../app-assets/images/backgrounds/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.h-50px {
+    height: 50px !important;
+}
+
+.w-85 {
+    width: 85% !important;
+}
+
+.header-navbar .navbar-header .navbar-brand {
+    padding: 10px 0px;
+    margin-right: 0;
+}
+
+.select2-container--classic .select2-results__options .select2-results__option[aria-selected=true], .select2-container--default .select2-results__options .select2-results__option[aria-selected=true] {
+    background-color: #2196f3 !important;
+}
+
+.p-0_5 {
+    padding: 0.5rem !important;
+}
+
+.select2-container--classic .select2-selection--multiple .select2-selection__choice, .select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #2196f3 !important;
+}
+
+.select2-results__option[aria-selected=true] {
+    display: none;
+}
+
+.select2-results__option--selected {
+    display: none;
+}
+
+table.dataTable.no-footer {
+    border-bottom: none !important;
+}
+
+.page-item .page-link {
+    border-color: transparent;
+}
+
+.page-item.disabled .page-link {
+    border-color: transparent;
+}
+
+.page-item.active .page-link {
+    border-radius: 0.21rem;
+}
+
+.nav.nav-tabs.nav-top-border .nav-item a.nav-link.active {
+    border-top: 3px solid #2196f3;
+}
+
+.nav.nav-tabs.nav-top-border .nav-item a {
+    color: #2196f3;
+}
+
+.fc-button:not(:disabled).fc-button-active {
+    background-color: #2196f3;
+    border-color: #2196f3;
+}
+
+.badge-info {
+    background-color: #1e9ff2;
+}
+
+.badge {
+    color: #fff;
+    font-weight: 400;
+    background-color: #1e9ff2;
+}
+.leaflet-tooltip {
+    color: #fff;
+    font-weight: 400;
+    background-color: rgba(30, 159, 242,0.75);
+}

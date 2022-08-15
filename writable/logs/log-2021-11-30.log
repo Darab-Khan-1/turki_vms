@@ -1,0 +1,16 @@
+CRITICAL - 2021-11-30 12:25:26 --> Typed property App\Libraries\TraccarApi::$username must not be accessed before initialization
+#0 /var/www/html/app/Controllers/Rest/Device.php(188): App\Libraries\TraccarApi->devicePost()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Rest\Device->create_device()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-30 12:25:32 --> Typed property App\Libraries\TraccarApi::$username must not be accessed before initialization
+#0 /var/www/html/app/Controllers/Rest/Device.php(188): App\Libraries\TraccarApi->devicePost()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Rest\Device->create_device()
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-11-30 19:01:54 --> Duplicate entry 'puu2uot3p42eaok31ltsas817ie96bl4' for key 'PRIMARY'
+ERROR - 2021-11-30 19:01:54 --> Duplicate entry 'puu2uot3p42eaok31ltsas817ie96bl4' for key 'PRIMARY'

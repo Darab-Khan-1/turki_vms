@@ -1,0 +1,3 @@
+ERROR - 2022-06-03 13:53:52 --> Duplicate entry '0ot7918pcf56o0usp9sa5npp3f840big' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-06-03 13:53:53 --> Duplicate entry '0ot7918pcf56o0usp9sa5npp3f840big' for key 'ci_sessions.PRIMARY'
+ERROR - 2022-06-03 13:53:55 --> Duplicate entry '0ot7918pcf56o0usp9sa5npp3f840big' for key 'ci_sessions.PRIMARY'
