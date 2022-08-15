@@ -11,8 +11,18 @@ user_guide_src/cilexer/build/*
 user_guide_src/cilexer/dist/*
 user_guide_src/cilexer/pycilexer.egg-info/*
 
+
+
 #codeigniter 3
 application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
 /vendor/
+
+application.old
+bin.old 
+composer.json..old 
+index.html.old 
+index.nginx-debian.html.old
+public.old 
+vendor.old
